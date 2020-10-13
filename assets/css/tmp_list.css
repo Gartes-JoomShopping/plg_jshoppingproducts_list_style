@@ -1,0 +1,40 @@
+#form_list_style {
+  float: right;
+  line-height: 13px;
+  vertical-align:middle;
+}
+#form_list_style button{
+  border: 0 !important;
+  outline:0;
+  cursor:pointer;
+   line-height: 13px;
+}
+#form_list_style.noactive button[value="tmp_table"] {
+  font-weight: 700;
+}
+#form_list_style.active button[value="tmp_list"] {
+  font-weight: 700;  
+}
+
+.tmp_list.product{
+   clear: both;
+   overflow: hidden;
+   margin: 10px 0;
+   border-top: 1px solid #eee;
+   padding: 20px 0;
+   position: relative;
+}
+
+.tmp_list .left-block{
+  float: left;
+  width:25%;
+}
+.tmp_list .center-block{
+  float: left;
+  width: 45%;
+  margin: 0 2%;
+}
+.tmp_list .right-block{
+  float: right;
+  width:25%;
+}

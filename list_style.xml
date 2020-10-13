@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="jshoppingproducts">
+	<name>Joomshopping Product List Style</name>
+	<author>ELLE</author>
+	<creationDate>July, 2013</creationDate>
+	<copyright>Copyright by Joomext.ru. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joomext.ru</authorEmail>
+	<authorUrl>http://joomext.ru/</authorUrl>
+    <version>1.3</version>
+	<description>Joomshopping Product List Style</description>
+	<files>
+		<filename plugin="list_style">list_style.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+	</files>
+    <languages>
+        <language
+            tag="en-GB">en-GB.plg_jshoppingproducts_list_style.ini</language>
+		<language
+            tag="ru-RU">ru-RU.plg_jshoppingproducts_list_style.ini</language>
+    </languages>
+
+</extension>
